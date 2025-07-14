@@ -5,8 +5,9 @@ This project provides a lightweight and efficient solution for fire detection fr
 
 ## 📸 Example Outputs
 
-| -------------------------------------- |
-| ![Original vs Depth](fire_example.jpg) |
+| Fire Images Example               |
+| --------------------------------- |
+| ![fire_example](fire_example.jpg) |
 
 
 ## 📁 Overview
@@ -54,9 +55,8 @@ print("Path to dataset files:", path)
 
 ## 🧠 Model Used
 
-```bash
 The model is based on MobileNetV3-Small, pretrained on ImageNet. The final classification layer is modified for binary classification (fire vs non-fire).
-
+```bash
 model = mobilenet_v3_small(weights=MobileNet_V3_Small_Weights.IMAGENET1K_V1)
 model.classifier[3] = nn.Linear(model.classifier[3].in_features, 2)
 ```
