@@ -68,7 +68,7 @@ model.classifier[3] = nn.Linear(model.classifier[3].in_features, 2)
 - Uses WeightedRandomSampler to handle class imbalance
 - Optimizer: Adam
 - Scheduler: ReduceLROnPlateau
-- Training logs are saved to training_log.csv.
+- Training logs are saved to training_log.csv
 
 
 ## 📊 Evaluation
