@@ -26,6 +26,7 @@ We use the [fire-dataset](https://www.kaggle.com/datasets/phylake1337/fire-datas
 The dataset is from phylake1337/fire-dataset, containing two categories:
 - **fire_images**
 - **non_fire_images**
+
 The dataset is automatically downloaded using `Kagglehub`:
 ```bash
 import kagglehub
